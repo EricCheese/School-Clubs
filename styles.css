@@ -25,11 +25,21 @@ body {
     text-transform: uppercase;
 }
 
+.button:hover {
+    background-color: aliceblue;
+}
+
 .card {
     padding: 16px;
     margin: 12px;
     background-color: antiquewhite;
     border-radius: 20px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .cards-container {
@@ -48,4 +58,21 @@ body {
     text-align: center;
     padding: 20px 0;
     background-color: antiquewhite;
+}
+
+.requirement {
+    padding: 16px;
+    margin: 12px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.requirement-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+
+#footer {
+    text-align: center;
 }
